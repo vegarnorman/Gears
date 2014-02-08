@@ -39,11 +39,11 @@ While Gears might not necessarily have the abundance of functionality other CMS 
 Getting started
 ---------------
 
-1: Download and copy the entire `gears` folder into the root of your website.
-2: Change up the `gears/settings.php` file to your liking.
-3: Let PHP require the Gears script at the very top of any page you want to use Gears with, like so: `<?php require "gears/gears.php"; ?>`
-4: To actually use the functionality in Gears, use `<?php Gears::Blog(); ?>` to run a blog on a page, and `<?php Gears::Run(); ?>` to have Gears dynamically load pages.
-5: That's it, you're done installing Gears.
++ Download and copy the entire `gears` folder into the root of your website.
++ Change up the `gears/settings.php` file to your liking.
++ Let PHP require the Gears script at the very top of any page you want to use Gears with, like so: `<?php require "gears/gears.php"; ?>`
++ To actually use the functionality in Gears, use `<?php Gears::Blog(); ?>` to run a blog on a page, and `<?php Gears::Run(); ?>` to have Gears dynamically load pages.
++ That's it, you're done installing Gears.
 
 
 Other noteworthy stuff

@@ -112,7 +112,7 @@ class Gears {
     $index = self::Index();
     $stop = false;
 
-    if(!isset($_GET["p"]) || $_GET["p"] <= 0 || !is_numeric($_GET["p"])) {
+    if(!isset($_GET["p"]) || !is_numeric($_GET["p"]) || $_GET["p"] <= 0) {
       $page = 1;
     }
 
